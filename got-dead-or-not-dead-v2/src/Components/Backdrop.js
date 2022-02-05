@@ -1,0 +1,6 @@
+//Return an empty div for styling purposes
+function Backdrop(props){
+    return <div className="backdrop" onClick ={props.onClick}/>
+}
+
+export default Backdrop;
